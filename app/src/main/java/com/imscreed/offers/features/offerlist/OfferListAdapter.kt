@@ -42,7 +42,7 @@ class OfferViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
     fun bind(offer: Offer) {
         name.text = offer.name
-        cashback.text = offer.cash_back.toString()
+        cashback.text = itemView.resources.getString(R.string.cashback_text, offer.cash_back.toString())
 
         photo.load(offer.image_url) {
             crossfade(true)

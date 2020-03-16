@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">Offers</string>
     <string name="offer_image_description">Offer Image</string>
-    <string name="cashback_text">Cashback : $ %1$s</string>
+    <string name="cashback_text">Cashback : $%1$s</string>
     <string name="empty_list">No offers found</string>
     <string name="empty_title">Uh Oh! No offers found</string>
+    <string name="sort_by_name">Sort by name</string>
+    <string name="sort_by_cashback">Sort by cashback</string>
 </resources>
